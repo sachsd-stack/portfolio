@@ -93,7 +93,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/idk.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/nasa-cIX5TlQ_FgM-unsplash.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -380,6 +380,10 @@ a:hover, a:focus, a:active {
 }
 
 @media (max-width:767px) {
+  #jjDesc.mt-5 {
+    margin-top:0 !important;
+  }
+
   .img-reduce {
     max-width:50% !important;
  }

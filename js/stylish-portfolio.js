@@ -62,3 +62,19 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+
+
+    // $( window ).resize(function() {
+    //     if($(window).width() >=768) {
+    //         $('#jjDesc').toggleClass(function() {
+    //           if ( $( this ).is( ".mt-5" ) ) {
+    //               console.log("class already there good to go");
+    //           } else {
+    //               $( this ).addClass(".mt-5");
+    //           }
+    //         }
+    //     }else{
+    //           $('#jjDesc').removeClass(".mt-5");
+    //     }
+
+    // });
