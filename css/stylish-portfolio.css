@@ -375,6 +375,10 @@ a:hover, a:focus, a:active {
   color: #ecb807 !important;
 }
 
+ul:not(.list-inline) {
+  text-align:left;
+}
+
 #qualifications {
   background-color:#9C40F1;
 }
