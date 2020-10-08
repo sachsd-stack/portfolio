@@ -379,6 +379,10 @@ a:hover, a:focus, a:active {
   background-color:#9C40F1;
 }
 
+#resume {
+  background-color:#9C40F1;
+}
+
 @media (max-width:767px) {
   #jjDesc.mt-5 {
     margin-top:0 !important;
