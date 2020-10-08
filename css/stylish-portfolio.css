@@ -384,6 +384,11 @@ a:hover, a:focus, a:active {
     margin-top:0 !important;
   }
 
+.bi.bi-bootstrap-fill {
+  width:16.75vw;
+  height:16.75vh;
+}
+
   .img-reduce {
     max-width:50% !important;
  }
@@ -398,6 +403,20 @@ a:hover, a:focus, a:active {
   }
   .img-logo {
     max-width:25%;
+  }
+}
+
+@media(min-width:768px) and (max-width:992px){
+  .bi.bi-bootstrap-fill {
+    width:20vw;
+    height:20vh;
+  }
+}
+
+@media(min-width:993px){
+  .bi.bi-bootstrap-fill {
+    width:10vw;
+    height:10vh;
   }
 }
 
