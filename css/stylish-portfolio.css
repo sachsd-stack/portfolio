@@ -398,7 +398,7 @@ ul:not(.list-inline) {
 }
 
   .img-reduce {
-    max-width:50% !important;
+    max-width:30% !important;
  }
 
  .img-logo {
@@ -407,7 +407,7 @@ ul:not(.list-inline) {
 }
 @media(min-width:768px){
   .img-reduce {
-    max-width:75%!important;
+    max-width:60%!important;
   }
   .img-logo {
     max-width:25%;
