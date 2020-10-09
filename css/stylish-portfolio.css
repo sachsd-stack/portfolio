@@ -393,8 +393,8 @@ ul:not(.list-inline) {
   }
 
 .bi.bi-bootstrap-fill {
-  width:16.75vw;
-  height:16.75vh;
+  width:7.5vw;
+  height:7.5vh;
 }
 
   .img-reduce {
@@ -402,7 +402,7 @@ ul:not(.list-inline) {
  }
 
  .img-logo {
-   max-width:20%;
+   max-width:10%;
  }
 }
 @media(min-width:768px){
@@ -410,14 +410,14 @@ ul:not(.list-inline) {
     max-width:60%!important;
   }
   .img-logo {
-    max-width:25%;
+    max-width:10%;
   }
 }
 
 @media(min-width:768px) and (max-width:992px){
   .bi.bi-bootstrap-fill {
-    width:20vw;
-    height:20vh;
+    width:7.5vw;
+    height:7.5vh;
   }
 }
 
