@@ -400,6 +400,33 @@ ul:not(.list-inline) {
   background-color:#9C40F1;
 }
 
+@media (max-width:368px) {
+  #qualButton {
+    margin-bottom: 2rem;
+    margin-right: 0 !important;
+    width:75%;
+  }
+  #resumeButton{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+}
+
+@media (min-width:369px) and (max-width:392px) {
+  #qualButton {
+    margin-bottom: 2rem;
+    margin-right: 0 !important;
+    width:75%;
+  }
+  #resumeButton{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    
+  }
+}
+
 @media (max-width:767px) {
   #jjDesc.mt-5 {
     margin-top:0 !important;
@@ -418,6 +445,7 @@ ul:not(.list-inline) {
    max-width:10%;
  }
 }
+
 @media(min-width:768px){
   .img-reduce {
     max-width:60%!important;

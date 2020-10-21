@@ -63,7 +63,6 @@ var onMapClickHandler = function(event) {
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
 
-
     // $( window ).resize(function() {
     //     if($(window).width() >=768) {
     //         $('#jjDesc').toggleClass(function() {
