@@ -411,6 +411,15 @@ ul:not(.list-inline) {
     flex-direction: column;
     width: 75%;
   }
+
+  .bi.bi-bootstrap-fill {
+    width:20vw;
+    height:20vh;
+  }
+  
+  .img-logo {
+    max-width:20%;
+  }
 }
 
 @media (min-width:369px) and (max-width:392px) {
@@ -419,15 +428,24 @@ ul:not(.list-inline) {
     margin-right: 0 !important;
     width:75%;
   }
+
   #resumeButton{
     display: flex;
     flex-direction: column;
     width: 75%;
-    
+  }
+
+  .bi.bi-bootstrap-fill {
+    width:15vw;
+    height:15vh;
+  }
+
+  .img-logo {
+    max-width:20%;
   }
 }
 
-@media (max-width:767px) {
+@media (min-width:393px) and (max-width:767px) {
   #jjDesc.mt-5 {
     margin-top:0 !important;
   }
@@ -438,7 +456,7 @@ ul:not(.list-inline) {
 }
 
   .img-reduce {
-    max-width:30% !important;
+    max-width:40% !important;
  }
 
  .img-logo {
