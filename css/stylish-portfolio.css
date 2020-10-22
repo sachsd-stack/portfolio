@@ -420,6 +420,10 @@ ul:not(.list-inline) {
   .img-logo {
     max-width:20%;
   }
+
+  .img-reduce {
+    max-width:50% !important;
+ }
 }
 
 @media (min-width:369px) and (max-width:392px) {
@@ -443,6 +447,10 @@ ul:not(.list-inline) {
   .img-logo {
     max-width:20%;
   }
+
+  .img-reduce {
+    max-width:50% !important;
+ }
 }
 
 @media (min-width:393px) and (max-width:767px) {
