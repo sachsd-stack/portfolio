@@ -404,10 +404,19 @@ ul:not(.list-inline) {
     margin-right: 0 !important;
     width:75%;
   }
+
   #resumeButton{
     display: flex;
     flex-direction: column;
     width: 75%;
+  }
+
+  .portfolio-item .caption .caption-content .h2 {
+    font-size:1.5rem !important;
+  }
+
+  .portfolio-item .caption .caption-content p {
+    font-size:0.9rem !important;
   }
 
   /* .bi.bi-bootstrap-fill {
