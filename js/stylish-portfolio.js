@@ -92,6 +92,12 @@ $('.map').on('click', onMapClickHandler);
       link:'https://sachsd-stack.github.io/JS-Bass-Riff-from-Drum-Kit/'
     },
     {
+      title:'Counter React App',
+      description:'Simple Number Counter and Multiplier built using React',
+      image:'./img/counterApp.png',
+      link:'https://sachsd-stack.github.io/counterApp/'
+    },
+    {
       title:'Standard Textile Meg Fiora Collection',
       description:"Restyled previous developer's work to fit Interiors Collection theme. Used HTMl, CSS, JavaScript, jQuery and other scripts",
       image:'./img/megFiora.jpg',
