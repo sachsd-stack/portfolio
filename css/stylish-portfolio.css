@@ -39,6 +39,14 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.skillsLogo {
+  height:75px;
+}
+
+.skillsTitle {
+  text-align:center;
+}
+
 /* Map */
 .map {
   height: 30rem;
@@ -51,6 +59,14 @@ h6 {
 @media (max-width: 992px) {
   .map {
     height: 75%;
+  }
+
+  .skillsLogo {
+    height:50px;
+  }
+
+  .skillsTitle {
+    font-size:0.8rem;
   }
 }
 
@@ -469,6 +485,14 @@ ul:not(.list-inline) {
   .img-reduce {
     max-width:40% !important;
  }
+
+ .skillsLogo {
+  height:100px;
+}
+
+.skillsTitle {
+  font-size:1rem;
+}
 
  /* .img-logo {
    max-width:10%;
