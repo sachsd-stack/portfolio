@@ -478,7 +478,7 @@ ul:not(.list-inline) {
 } */
 
 @media (min-width:393px) and (max-width:767px) {
-  #jjDesc.mt-5 {
+  #etDesc.mt-5 {
     margin-top:0 !important;
   }
 
